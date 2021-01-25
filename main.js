@@ -7,7 +7,9 @@ window.addEventListener("click", function (event) {
   });
 
 function cleanColor(){
-    document.getElementById("ratingStar").classList.remove("rgb(255,165,0)");
-    document.getElementById("ratingStar").classList.add("white)");
+    var rating = document.getElementsByClassName("rating");
+	for(k = 0; k > rating.length; k++){
+		rating[k].style.color = "white";		
+	}
+	
 }
-   
