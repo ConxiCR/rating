@@ -4,7 +4,7 @@ box-sizing: border-box;
 }
 body {
   background: repeating-linear-gradient(37deg, #2171e2, #005c97 173px);
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom:29em;
 }
 h1{
@@ -12,25 +12,33 @@ h1{
   font-size: 4rem;
   margin-top: 5em;
   }
-.rating {
-    font-size: 5em;
+ .rating {
+   
+    font-size: 10em;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.onStar{
+  color: rgb(255, 165, 0)
 }
   input[type="radio"] {
       display: none;
+      
   }
   label {
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   .direction {
     direction: rtl;
     unicode-bidi: bidi-override;
     text-align: center;
   }
+ 
   label:hover,
   label:hover ~ label {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   /*al hacer click en el boton las etiquetas label se ponen de color*/
   input[type="radio"]:checked ~ label {
