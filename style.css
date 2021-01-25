@@ -9,19 +9,18 @@ body {
 }
 h1{
   text-align: center;
-  font-size: 4rem;
-  margin-top: 5em;
+  font-size: 5rem;
+  margin-top: 4em;
   }
  .rating {
-   
-    font-size: 10em;
+    font-size: 8em;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-grow: row wrap;
     cursor: pointer;
-}
-.onStar{
-  color: rgb(255, 165, 0)
+    direction: rtl;
+    text-align: center;
+    margin-top: 5rem;
 }
   input[type="radio"] {
       display: none;
@@ -30,11 +29,11 @@ h1{
   label {
     color: rgb(255, 255, 255);
   }
-  .direction {
+  /*.direction {
     direction: rtl;
     unicode-bidi: bidi-override;
     text-align: center;
-  }
+  }*/
  
   label:hover,
   label:hover ~ label {
@@ -43,6 +42,17 @@ h1{
   /*al hacer click en el boton las etiquetas label se ponen de color*/
   input[type="radio"]:checked ~ label {
     color:#ffa500;
+  }
+  button#boton{
+    width: 10%;
+    height: 10%;
+    font-size: 4rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color : #ff8800;
+    color: #fff;
+    border-radius: 1 ;
   }
   
  
