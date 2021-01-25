@@ -1,15 +1,15 @@
 
-window.addEventListener("click", function (event) {
+/*window.addEventListener("click", function (event) {
     //capturo cualquier click en cualquier sitio "e" es el nombre argument
     if (!document.getElementById("boton").contains(event.target)) {
       //si el click NO está dentro del div, limpiar todo
     cleanStar();
     }
-});
-
+});*/
+//botó per netejar els star afegint o treient colors
 var boton     = document.getElementById("boton"),
     cleanStar = document.getElementById("ratingStar"),
-    contador=0;  
+    contador  = 0;  
 
     function cleanStar(){
         if(contador = 0){

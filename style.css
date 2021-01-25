@@ -44,7 +44,7 @@ h1{
     color:#ffa500;
   }
   button#boton{
-    width: 10%;
+    width: 3em;
     height: 10%;
     font-size: 4rem;
     padding: 1%;
@@ -52,7 +52,7 @@ h1{
     justify-content: center;
     background-color : #ff8800;
     color: #fff;
-    border-radius: 1 ;
+    border-radius: 1;
   }
   
  
